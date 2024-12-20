@@ -1,0 +1,24 @@
+{
+  "name": "Simplified Google Task",
+  "description": "For Simplifying Google Task Web UI",
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "homepage_url": "https://booksitout.com/products",
+  "action": {
+    "default_title": "Simplified Google Task",
+    "default_popup": "src/popup/popup.html"
+  },
+  "author": "me@jinkyumpark.com",
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "js": ["src/content/start.js"],
+      "css": ["src/content/start.css"],
+      "matches": ["https://calendar.google.com/calendar/*/tasks"]
+    }
+  ],
+  "host_permissions": [
+    "https://calendar.google.com/calendar/*/tasks",
+    "http://calendar.google.com/calendar/*/tasks",
+  ]
+}
