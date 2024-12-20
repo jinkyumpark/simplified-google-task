@@ -14,7 +14,10 @@
       "run_at": "document_idle",
       "js": ["src/content/start.js"],
       "css": ["src/content/start.css"],
-      "matches": ["https://calendar.google.com/calendar/*/tasks/*"]
+      "matches": [
+        "https://calendar.google.com/calendar/*/tasks",
+        "https://calendar.google.com/calendar/*/tasks/*"
+      ]
     }
   ]
 }
