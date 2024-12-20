@@ -6,7 +6,17 @@
   "homepage_url": "https://booksitout.com/products",
   "action": {
     "default_title": "Simplified Google Task",
-    "default_popup": "src/popup/popup.html"
+    "default_popup": "src/popup/popup.html",
+    "default_icon": {
+      "16": "src/icons/icon-16.png",
+      "48": "src/icons/icon-48.png",
+      "128": "src/icons/icon-128.png"
+    }
+  },
+  "icons": {
+    "16": "src/icons/icon-16.png",
+    "48": "src/icons/icon-48.png",
+    "128": "src/icons/icon-128.png"
   },
   "author": "me@jinkyumpark.com",
   "content_scripts": [
