@@ -1,0 +1,8 @@
+.gb_kd.gb_od.gb_Kc {
+    visibility: hidden !important;
+    height: 30px;
+}
+
+div[role="navigation"][aria-label="Sidebar"] {
+    display: none !important;
+}
