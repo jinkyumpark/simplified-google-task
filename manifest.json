@@ -26,7 +26,8 @@
       "css": ["src/content/start.css"],
       "matches": [
         "https://calendar.google.com/calendar/*/tasks",
-        "https://calendar.google.com/calendar/*/tasks/*"
+        "https://calendar.google.com/calendar/*/tasks/*",
+        "https://calendar.google.com/calendar/u/*/r/tasks*"
       ]
     }
   ]
