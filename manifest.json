@@ -11,14 +11,10 @@
   "author": "me@jinkyumpark.com",
   "content_scripts": [
     {
-      "run_at": "document_start",
+      "run_at": "document_idle",
       "js": ["src/content/start.js"],
       "css": ["src/content/start.css"],
-      "matches": ["https://calendar.google.com/calendar/*/tasks"]
+      "matches": ["https://calendar.google.com/calendar/*/tasks/*"]
     }
-  ],
-  "host_permissions": [
-    "https://calendar.google.com/calendar/*/tasks",
-    "http://calendar.google.com/calendar/*/tasks",
   ]
 }
