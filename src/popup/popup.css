@@ -4,10 +4,15 @@ body {
     background-color: #2A2A2D;
 }
 
-h1, h2 {
+h1, h2, li, a {
     color: white;
 }
 
+a {
+    text-decoration: none;
+}
+
+/* Switch */
 .switch {
     position: relative;
     display: inline-block;
