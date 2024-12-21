@@ -32,7 +32,7 @@ window.onload = async () => {
 }
 
 const HIDE_TOP_BAR_CSS = `
-    .gb_kd.gb_od.gb_Kc {
+    .gb_kd.gb_od {
         visibility: hidden !important;
         height: 30px;
     }
